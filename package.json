@@ -1,0 +1,46 @@
+{
+  "name": "vtb-win",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "clsx": "1.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-query": "3.39.2",
+    "reset-css": "5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.13",
+    "@types/node": "^16.11.63",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "babel-loader": "8.2.5",
+    "css-loader": "6.7.1",
+    "sass": "1.54.0",
+    "sass-loader": "10.3.1",
+    "style-loader": "3.3.1",
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
