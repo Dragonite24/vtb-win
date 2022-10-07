@@ -1,6 +1,10 @@
-import { Home } from './pages/Home';
+import { BrowserRouter as Router } from 'react-router-dom'
+
+import { Home } from './pages/Home'
 
 // todo react-router
 export const App = () => (
-  <Home />
+  <Router>
+    <Home />
+  </Router>
 )
