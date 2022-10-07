@@ -3,29 +3,30 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "clsx": "1.2.1",
+    "@types/axios": "^0.14.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-redux": "^7.2.8",
     "react-scripts": "5.0.1",
     "react-query": "3.39.2",
-    "reset-css": "5.0.1"
+    "reset-css": "5.0.1",
+    "react-transition-group": "^4.4.2",
+    "styled-components": "^5.3.5",
+    "typesafe-actions": "^5.1.0"
   },
   "devDependencies": {
-    "@babel/core": "7.18.13",
     "@types/node": "^16.11.63",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
-    "babel-loader": "8.2.5",
-    "css-loader": "6.7.1",
-    "sass": "1.54.0",
-    "sass-loader": "10.3.1",
-    "style-loader": "3.3.1",
+    "@types/react-transition-group": "^4.4.5",
+    "@types/react-query": "^1.2.9",
+    "@types/styled-components": "^5.1.25",
     "typescript": "^4.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
-  },
+  },  
   "eslintConfig": {
     "extends": [
       "react-app"

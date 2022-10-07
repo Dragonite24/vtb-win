@@ -1,0 +1,12 @@
+{
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "htmlWhitespaceSensitivity": "css",
+  "printWidth": 120,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "singleQuote": true,
+  "semi": false,
+  "trailingComma": "none",
+  "tabWidth": 2
+}
